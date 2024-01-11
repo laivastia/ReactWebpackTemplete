@@ -1,12 +1,17 @@
 # React + Typescript + Webpack + Babel + Eslint 템플릿
+해당 템플릿은 CRA 형태와 유사하게 만들되 webpack 플러그인 라이브러리등 개발에 필요한 기능을 최소한으로 넣어 제작 되었습니다.
 
-* dependencies
+#### 템플릿 Fork 후, node_modules install
+>
+    npm install -y
+>
++ dependencies 미리보기
 >
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
 >
 
-* devDependencies
+* devDependencies 미리보기
 >
     "@babel/core": "^7.23.7",
     "@babel/plugin-transform-runtime": "^7.23.7",
@@ -33,3 +38,33 @@
     "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1">
+>
+
+* 해당 템플릿 생성시 사용된 npm script
+>
+    npm install react react-dom
+>
+    npm install --save-dev typescript
+>
+    npm install --save-dev @types/react @types/react-dom
+>
+    npm install --save-dev @babel/core @babel/preset-env @babel/preset-react @babel/preset-typescript @babel/plugin-transform-runtime @babel/runtime
+>
+    npm install --save-dev eslint eslint-plugin-react eslint-plugin-react-hooks @typescript-eslint/parser @typescript-eslint/eslint-plugin
+>
+    npm install --save-dev webpack webpack-cli
+>
+    npm install --save-dev webpack-dev-server @types/webpack-dev-server
+>
+    npm install --save-dev babel-loader
+>
+    npm install --save-dev html-webpack-plugin
+>
+    npm install --save-dev ts-node
+>
+    npm install --save-dev fork-ts-checker-webpack-plugin @types/fork-ts-checker-webpack-plugin
+>
+    npm install --save-dev eslint-webpack-plugin
+>
+    npm install --save-dev clean-webpack-plugin
+>
