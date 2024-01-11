@@ -1,17 +1,27 @@
 {
   "compilerOptions": {
     "lib": ["dom", "dom.iterable", "esnext"],
+    // 유형 검사 프로세스 : 현재 브라우저 DOM + 최신버전 ECMAScript 사용
     "allowJs": true,
+    // JavaScript 파일 컴파일 허용 여부
     "allowSyntheticDefaultImports": true,
+    // 모듈 import 시, export default가 없는 모듈을 import *** 형태로 불러오기 허용 여부
     "skipLibCheck": true,
+    // 선언 파일(.d.ts)의 타입 체킹 스킵 허용 여부
     "esModuleInterop": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
+    // 사용할 파일의 대소문자 구분 강제 여부
     "moduleResolution": "node",
+    // 모듈 해석 방식 지정
     "resolveJsonModule": true,
+    // json 파일 모듈 import 허용 여부
     "isolatedModules": true,
     "noEmit": true,
+    // 추가 출력 파일 생성 여부
     "jsx": "react-jsx"
+    // jsx 코드 컴파일 방식 지정 : "react-jsx"는 _jsx() 함수 호출 형태
   },
   "include": ["src"]
+  // 컴파일 목록에 포함될 파일 및 폴더 지정
 }
